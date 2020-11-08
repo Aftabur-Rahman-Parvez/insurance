@@ -1,0 +1,113 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .banner-search-left {
+        width: 100%;
+    }
+    .banner-search-right {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .products-tab-list {
+        padding-top: 0px;
+    }
+    .banner-fixed-content {
+        bottom: 9%;
+        left: 10px;
+    }
+    .banner-fixed-content-col {
+        width: 101px;
+        border-radius: 10px;
+
+    }
+    .banner-footer-title {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .main-title {
+
+        display: inline-block;
+        text-align: center;
+        margin-top: 150px;
+        margin-left: 15px;
+    }
+    .display-none-sm{
+        display:none!important;
+    }
+    header.header-top {
+        left: 20px;
+    } 
+    .header-top-body .container-fluid {
+        padding-right: 20px;
+    }
+    .display-block-sm{
+        display:block!important;
+    } 
+    .main-title h1 {
+        font-size: 26px;
+    } 
+    .product-tab-content-inner .owl-carousel.owl-theme .owl-nav {
+        width: 100%;
+        bottom: 0px;
+    } 
+    .business-insurence {
+        padding: 60px 20px;
+    }
+    .business-insurence-col {
+        margin-bottom: 10px;
+    }
+    .footer-social-icon {
+        margin-top: 30px;
+    }
+    .product-tab-content-left {
+        padding: 30px;
+    }
+    .products-tab-list {
+        padding: 20px;
+    }
+    .sec-inner-body-left {
+        margin-bottom: 20px;
+    }
+    .copyright-right {
+        text-align: center;
+    }
+    .login-btn-head-none{
+        display:none;
+    }
+    .tab-content-button {
+        display: block;
+        text-align: center;
+    }
+    .bp-btn {
+        display: block;
+    }
+    
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .product-tab-content-inner .owl-carousel .owl-stage-outer {
+        height:360px!important;
+    }
+ }
+
+
+@media (max-width: 920px){
+    
+}
+@media (min-width: 1200px){
+    
+}
