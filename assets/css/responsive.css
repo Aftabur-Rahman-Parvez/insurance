@@ -11,13 +11,21 @@
         padding-top: 0px;
     }
     .banner-fixed-content {
-        bottom: 9%;
+        bottom: 15%;
         left: 10px;
     }
     .banner-fixed-content-col {
-        width: 101px;
+        width: 108px;
         border-radius: 10px;
+        margin-right:5px;
+        margin-bottom: 30px;
 
+    }
+    .banner-slider-inner .owl-theme .owl-nav {
+        display: none;
+    }
+    .banner-fixed-content-col-title p {
+        font-size: 10px;
     }
     .banner-footer-title {
         margin-top: 5px;
@@ -95,7 +103,7 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
- }
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -110,4 +118,24 @@
 }
 @media (min-width: 1200px){
     
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .banner-fixed-content {
+      left: 9%;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    .banner-fixed-content {
+        left: 15%;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1930.98px) {
+    .banner-fixed-content {
+        left: 20%;
+    }
+}
+@media (min-width: 1931px){
+    .banner-fixed-content {
+        left: 20%;
+    }
 }

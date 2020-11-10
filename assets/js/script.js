@@ -36,7 +36,7 @@ $window.on('scroll',function(){
 
 
 jQuery("#home-banner-slider").owlCarousel({
-    autoplay: false,
+    autoplay: true,
     lazyLoad: true,
     loop: true,
     animateOut: 'fadeOut',

@@ -184,6 +184,7 @@ header.header-top {
     background: #ffffff9e;
     color:#0404AB;
     font-weight: 700;
+    font-size: 32px;
     /* clip-path: polygon(6% 0, 94% 0, 100% 20%, 100% 85%, 94% 100%, 4% 98%, 0% 80%, 0% 20%); */
     clip-path: polygon(50% 0%, 94% 0, 100% 10%, 100% 90%, 94% 100%, 50% 100%, 4% 100%, 0 87%, 0 12%, 5% 0);
 }
@@ -191,6 +192,10 @@ header.header-top {
     width: 120px;
     border-radius: 20px;
     background: #fff;
+    margin-right: 15px;
+}
+.banner-fixed-content-col:hover {
+    transform: scale(1.03);
 }
 .banner-fixed-content-inner{
     display:flex;
@@ -201,6 +206,7 @@ header.header-top {
 }
 .banner-fixed-content-col{
     height: 100px;
+    transition: all .3s;
 }
 .banner-fixed-content-col-img {
     text-align: center;
@@ -211,8 +217,10 @@ header.header-top {
     text-align: center;
 }
 .banner-fixed-content-col-title p{
-    color:#fff;
-    font-size:11px;
+    color: #fff;
+    font-size: 11px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 .banner-fixed-content-col-img img {
     border-radius: 10px;
@@ -224,9 +232,10 @@ header.header-top {
     text-align: center;
     margin-top: 10px;
 }
-.banner-footer-title a{
+.banner-footer-title p{
     color:#FFFC01;
     font-size: 17px;
+    margin-top: 5px;
 }
 
 
@@ -503,6 +512,10 @@ a.active span.bs-text {
     color: #F7941E;
 }
 
+.banner-search-list ul li:hover a span {
+    color:#F7941E;
+}
+
 
 /* item column */
 .item-col{
@@ -512,6 +525,11 @@ a.active span.bs-text {
     padding: 30px 13px;
     border-radius: 20px;
     margin-bottom: 15px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.item-col:hover{
+    transform: scale(1.05);
 }
 .item-col-1{
     background: #F1F3FF;
@@ -525,11 +543,11 @@ a.active span.bs-text {
 .item-col-title{
     text-align:center;
 }
-.item-col-title a{
+.item-col-title p{
     color: #206175;
     font-weight: 700;
     font-size: 14px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .item-col-2 .item-col-title a{
     color:#B8409E;
@@ -1057,4 +1075,35 @@ section.business-insurence h1 {
 }
 .copyright-right{
     text-align:right;
+}
+
+/* single page */
+.single-header-part {
+    background: url(../images/bg.jpg);
+    height: 300px;
+    padding-top: 150px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.single-header-part:before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    bottom:0;
+    height:100%;
+    background:rgba(0, 0, 0, 0.3)
+}
+.page-title h1{
+    text-align: center;
+    color:#fff;
+}
+.single-body-part{
+    padding-top:70px;
+    padding-bottom: 100px;
+    background: #fff;
 }
